@@ -32,10 +32,7 @@
                     composable("ads") {
                         AdsScreen(
                             navController = navController
-                        ) {
-                            // Navigate to home and remove this screen
-                            finish()
-                        }
+                        )
                     }
                 }
             }
